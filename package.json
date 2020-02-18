@@ -1,0 +1,32 @@
+{
+  "name": "reportportal-plugin",
+  "version": "1.0.0",
+  "description": "Reportportal plugin for CodeceptJS",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:codecept-js/reportportal-plugin.git"
+  },
+  "keywords": [
+    "codeceptJS",
+    "codeceptjs",
+    "browserstack",
+    "reportportal-plugin",
+    "rphelper-plugin"
+  ],
+  "author": "Thanh Nguyen <peter.nguyentr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codecept-js/reportportal-plugin/issues"
+  },
+  "homepage": "https://github.com/codecept-js/reportportal-plugin#readme",
+  "main": "index.js",
+  "dependencies": {
+    "reportportal-client": "5.5.0",
+    "codeceptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}

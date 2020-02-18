@@ -18,7 +18,7 @@ Example:
 {
   ...
    plugins: {
-    ReportPortalHelper: {
+    reportportal: {
       require: '@codecept-js/reportportal-plugin',
       token: 'YOUR_TOKEN',
       endpoint: 'http://localhost:8080/api/v1',
@@ -27,7 +27,8 @@ Example:
       launchAttributes: [{ key: 'yourKey', value: 'yourValue' }],
       projectName: 'YOUR_PROJECT',
       rerun: false,
-      debug: false
+      debug: false,
+      enabled: true
     }
   ...
 }
